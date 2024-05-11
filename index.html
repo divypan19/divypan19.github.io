@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Divya Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/b7526623c5.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="conatiner">
+            <nav>
+                <img src="images/logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="headertext">
+                <p>Web Developer</p>
+                <h1>Hi, I am<span> Divya Panchariya</span><br> from Parul University Vadodara, Gujarat</h1>
+            </div>
+        </div>
+    </div>
+    <!-----------about----------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user.JPG">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>As a passionate web developer, I thrive on turning ideas into functional and visually appealing websites. With a solid foundation in HTML, CSS, and JavaScript, I create seamless user experiences that blend creativity with technical precision. My journey began with tinkering in code, and over the years, I’ve honed my skills through personal projects and collaborative work. Whether it’s building responsive layouts, optimizing performance, or diving into the intricacies of front-end frameworks, I’m always eager to learn and adapt. Let’s connect and bring your digital vision to life!</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Web Developer</span><br>Web App Development</li>
+                            <li><span>Mean Stack Developer</span><br>Project Creation</li>
+                            <li><span>Software Enginneer</span><br>Java, Python, SQL</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>12/2023 - 1/2024</span><br>Fundraising Intern at Muskurahat Foundation</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2021 - Current</span><br>B.Tech from Parul Institute Of Technology</li>
+                            <li><span>2021</span><br>Higher Secondary Education(12th)</li>
+                            <li><span>2019</span><br>Senior Secondary Education(10th).</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+   <!-------------services------------>
+   <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-brands fa-codepen"></i>
+                    <h2>Website Design and Development</h2>
+                    <p>As a web developer, I specialize in creating functional and visually appealing websites. I design custom layouts, ensuring seamless user experiences across devices. My expertise spans both front-end and back-end development. On the front end, I build interactive interfaces using HTML, CSS, and JavaScript. Behind the scenes, I handle server-side logic, databases, and APIs. Whether it’s optimizing performance, implementing e-commerce solutions, or enhancing SEO, I’m committed to delivering high-quality web solutions that align with your goals. Let’s collaborate to bring your digital vision to life! 🌐🚀</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>Front-End Development</h2>
+                    <p>As a front-end developer, I specialize in creating engaging user experiences. My services include:
+
+                        Custom Web Design: Crafting visually appealing layouts using HTML, CSS, and responsive design principles.
+                        Interactive Interfaces: Building dynamic user interfaces with JavaScript and modern frameworks.
+                        Optimized Performance: Ensuring fast load times and smooth interactions.
+                        Cross-Device Compatibility: Making websites look great on all screens.
+                        SEO Best Practices: Enhancing visibility and search engine rankings.
+                        Let’s collaborate to bring your digital projects to life! 🌐🚀</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store-ios"></i>
+                    <h2>Back-End Development</h2>
+                    <p>Database Management:
+                        Efficiently store, organize, and retrieve data to power your platform’s functionality.
+                        Work with SQL and NoSQL databases (e.g., MySQL, MongoDB).
+                        Server-Side Logic:
+                        Write code that processes user actions, interacts with databases, and delivers dynamic content.
+                        Ensure seamless data processing behind the scenes.
+                        API Development:
+                        Build interfaces that enable smooth communication between different parts of your application or external services.
+                        Create robust APIs for data exchange.
+                        Security Measures:
+                        Implement strong security protocols to protect data, user information, and system integrity.
+                        Safeguard against vulnerabilities.
+                        Performance Optimization:
+                        Optimize server performance, caching, and compression.
+                        Fine-tune database queries for efficiency.
+                        My goal is to create a solid foundation that supports complex websites and applications. Let’s collaborate to enhance your digital presence! 🌐🚀</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-bolt-lightning"></i>
+                    <h2>SEO and Analytics</h2>
+                    <p>I specialize in optimizing websites for search engines (SEO) and tracking their performance through analytics. My services include:
+
+                        SEO Strategies:
+                        Enhancing website visibility and organic traffic.
+                        Keyword research, on-page optimization, and link building.
+                        Analytics Implementation:
+                        Setting up tools like Google Analytics.
+                        Monitoring user behavior, conversions, and site metrics.
+                        Data-Driven Insights:
+                        Analyzing data to make informed decisions.
+                        Improving user experiences based on analytics findings.
+                        Let’s boost your online presence and measure success together! 🌐🚀</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+   </div>
+   <!-----------Portfolio---------->
+   <div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work-1.jpg">
+                <div class="layer">
+                    <h3>Login page</h3>
+                    <p>A login page is where users enter their authentication credentials (such as a username and password) to access a restricted area of a website or app. It serves as the gateway to personalized content and secure features. A well-designed login page ensures a smooth and secure user experience. 🌐🔒</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-2.png">
+                <div class="layer">
+                    <h3>About page</h3>
+                    <p>It's my about page, a passionate coder based in India. My laptop seeks out beauty in everyday scenes, freezing those fleeting moments. Blending code with vibrant creativity, I create timeless events. Let’s code life together! 📷✨</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-3.jpg">
+                <div class="layer">
+                    <h3>Team page</h3>
+                    <p>We’re a tight-knit group of creative minds, fueled by passion and collaboration. From designers to developers, we thrive on turning ideas into reality. Together, we craft digital experiences that leave a lasting impression. Welcome to our world! 🚀🌟</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+    </div>
+   </div>
+
+<!--------Contact---------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>divympan180@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i>+91 9407417133</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/divy-m-panchariya-a47506242?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/divypan19"><i class="fa-brands fa-square-github"></i></a>
+                    <a href="https://www.instagram.com/divy_panchariya?igsh=MWt6YXl1eG9rbWFpbA=="><i class="fa-brands fa-square-instagram"></i></a>
+                </div>
+                <a href="images/divy resume.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright Divya Panchariya<i class="fa-solid fa-heart"></i></p>
+    </div>
+</div>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+       }
+
+    </script>
+    <script>
+         var sidemenu = document.getElementById("sidemenu")
+        function openmenu(){
+            sidemenu.style.right = "0";
+         }
+         function closemenu(){
+            sidemenu.style.right = "-200px";
+         }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbzpPymOH8EMvN1QITw2X5mk7iTslIvxYP_q3LHzveIhDirbUMF0bEs5Di-rEFuu-Pl_/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message sent successfully"
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+
+</body>
+</html>
